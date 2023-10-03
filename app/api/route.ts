@@ -8,7 +8,8 @@ export async function GET() {
 
 export async function POST() {
   const randomNumber = generate5DigitRandomNumber()
-  cookies().set('TOKEN', randomNumber, {httpOnly: true, secure: true, sameSite: "strict"})
+  cookies().set('TOKEN', randomNumber, {httpOnly: true, sameSite: "strict"})
+  // on https should be: cookies().set('TOKEN', randomNumber, {httpOnly: true, secure: true, sameSite: "strict"})
   return NextResponse.json({TOKEN: randomNumber})
 }
 
