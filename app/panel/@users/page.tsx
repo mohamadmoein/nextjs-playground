@@ -1,4 +1,4 @@
-import {wait} from "@/app/app/page";
+import {wait} from "@/app/panel/page";
 
 export default async function Users() {
 

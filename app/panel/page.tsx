@@ -1,8 +1,8 @@
 import { cookies } from "next/headers";
 import InjectRandomSession from "@/components/InjectRandomSession";
-import { Suspense } from "react";
+// import { Suspense } from "react";
 
-export default async function Home() {
+export default async function Panel() {
   const cookieStore = cookies()
   await Promise.all([wait(500),wait(800), wait(700)]);
 

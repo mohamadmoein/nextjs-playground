@@ -1,13 +1,12 @@
-import '@/app/app/globals.css'
+import '@/app/globals.css'
 import type {Metadata} from 'next'
 import {Inter} from 'next/font/google'
-import Link from "next/link";
 
 const inter = Inter({subsets: ['latin']})
 
 export const metadata: Metadata = {
-  title: 'Proxy Endpoint App',
-  description: 'Testing proxy endpoint behaviour',
+  title: 'My PLayground',
+  description: 'Testing various things',
 }
 
 export default function RootLayout({children,}: { children: React.ReactNode }) {
