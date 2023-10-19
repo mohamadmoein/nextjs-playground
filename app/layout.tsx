@@ -1,4 +1,4 @@
-import './(website)/globals.css'
+import '@/app/app/globals.css'
 import type {Metadata} from 'next'
 import {Inter} from 'next/font/google'
 import Link from "next/link";
